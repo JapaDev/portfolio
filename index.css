@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
+
+
+/* Logo  */
+.title {
+    font-family: 'Reem Kufi', sans-serif;
+    color: white;
+    font-size: 15pt;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+#logo {
+    float: left;
+    width: 30px;
+    height: 15px;
+    margin-left: 40px; 
+    margin-top: -20px;
+
+} 
+
+/* #PaginaHome */
+#home {
+    background: url(../_imagens/cabecalho.jpg) no-repeat; 
+    display: table;
+    width: 100%;
+    padding: 100px 0;
+    height: 1000px;
+    text-align: center;
+    color: white;
+    background-position: 35% 45%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/* #menu */
+#menu {
+    display: block;
+    float: right;
+    margin-top: -60px;
+     
+    
+}
+
+li {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+}
+
+a {
+    color: white;
+    padding: 10px;
+  
+
+}
+
+a:hover   {
+    color: #01579b;
+
+    
+}
+
+
+
+#titulos
+h2 {
+    font-family: 'Noto Serif', serif;
+}
+
+
+
+
+/* Pagina bibliografia */
+#bibliografia {
+    background: url(../_imagens/bb.jpg) no-repeat; 
+    display: table;
+    width: 100%;
+    padding: 100px 0;
+    height: 1000px;
+    text-align: center;
+    color: white;
+    background-position: 35% 45%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/* Informações */
+#bibli {
+    height: 500px;
+    width: 750px;
+    float: right;
+    box-shadow: 1px 1px 10px red;
+    background-color: red;
+}
+
+
+/* titulo das informações */
+#titulob {
+    text-align: left;
+    margin: -20px auto auto -20px;
+}
+
+/* texto das informações */
+#pbb {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+     
+}
+
+/* Janelas */ 
+
+.top {
+    background-color: rgba(0,0,0,.5);
+    height: 400px;
+    width: 300px;
+    margin: 100px 10px 10px 10px;
+    display: inline-block;
+}
+
+#sobre img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#portfolio img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#contato img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#inicio  {
+    background-color: blue;
+}
+
+.cima {
+    background: none;
+    box-shadow: none;
+    position: absolute;
+    margin-top: -80px;
+    position: fixed;
+    color: blue;
+}
+
+
+/* botões de navegação */
+.waves-effect {
+    margin-top: 80px;
+}
+
+.waves-effect:hover {
+    color: white;
+    box-shadow: 1px 1px 10px blue;
+}
+
+
+
+/* pagina portfolio */ 
+
+#abaportfolio {
+    background: white; 
+    display: table;
+    width: 100%;
+    padding: 100px 0;
+    height: 1000px;
+    text-align: center;
+    background-position: 35% 45%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.legenda {
+    box-shadow: none;
+    display: inline-block;
+    height: 700px;
+    width: 100%;
+
+}
+
+#abaportfolio img{
+    display: block;
+    float: left;
+    margin-left: 100px;
+    margin-top: 15%;
+}
+
+#menuport {
+    display: block;
+    margin-top: -100px;
+    height: 70px;
+}
+
+.desc {
+    display: block;
+    float: left;
+    margin-top: 20%;
+}
